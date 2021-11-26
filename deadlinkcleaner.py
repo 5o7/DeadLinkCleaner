@@ -31,6 +31,8 @@ for submission in reddit.subreddit("name_of_the_subreddit").__getattribute__("ne
     if "youtu" in submission.url:
         submissions.append(submission)
 
+# Get youtube id from each submission, access the id's dictionary, find removed movies
+
 for submission in submissions:
 
     # Make a variable to hold submission.url
